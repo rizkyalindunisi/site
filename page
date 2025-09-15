@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rizky Al Indunisi</title>
+  <style>
+    /* --- Base Styles --- */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #121212;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    /* --- Header & Navigation --- */
+    header {
+      background-color: #1f1f1f;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 3px solid #D14935;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    header h1 {
+      color: #D14935;
+      font-size: 1.8em;
+      margin: 0;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+      gap: 20px;
+    }
+
+    nav li a {
+      color: #ffffff;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav li a:hover {
+      color: #D14935;
+    }
+
+    /* --- Sections --- */
+    section {
+      padding: 60px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #D14935;
+      margin-bottom: 20px;
+    }
+
+    p {
+      color: #cccccc;
+    }
+
+    /* --- Work / Channels --- */
+    .channels {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .channel-card {
+      background-color: #1f1f1f;
+      padding: 20px;
+      border: 2px solid #D14935;
+      border-radius: 10px;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+
+    .channel-card:hover {
+      transform: translateY(-5px);
+    }
+
+    /* --- Socials / Link Tree --- */
+    .socials {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 20px;
+    }
+
+    .social-card {
+      background-color: #1f1f1f;
+      padding: 20px;
+      border: 2px solid #D14935;
+      border-radius: 10px;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+
+    .social-card:hover {
+      transform: translateY(-5px);
+    }
+
+    /* --- Footer --- */
+    footer {
+      background-color: #1f1f1f;
+      text-align: center;
+      padding: 20px;
+      border-top: 3px solid #D14935;
+      color: #aaaaaa;
+    }
+
+    /* --- Responsive --- */
+    @media (max-width: 768px) {
+      nav ul {
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Rizky Al Indunisi</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#socials">Socials</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home">
+    <h2>Welcome</h2>
+    <p>Hello! I’m Rizky Al Indunisi, an independent researcher, writer, and digital content creator. Explore my work and connect with me through my channels and socials.</p>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I specialize in research, writing, and producing insightful content on social-political and historical issues. My work spans multiple platforms including blogs and independent publications.</p>
+  </section>
+
+  <!-- Work Section -->
+  <section id="work">
+    <h2>Work</h2>
+    <div class="channels">
+      <div class="channel-card">
+        <h3>Bearblog</h3>
+        <p>Personal reflections and essays.</p>
+        <a href="#" target="_blank">Visit</a>
+      </div>
+      <div class="channel-card">
+        <h3>Medium</h3>
+        <p>Articles and long-form writings.</p>
+        <a href="#" target="_blank">Visit</a>
+      </div>
+      <div class="channel-card">
+        <h3>Substack</h3>
+        <p>Newsletters and research insights.</p>
+        <a href="#" target="_blank">Visit</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Socials Section -->
+  <section id="socials">
+    <h2>Socials</h2>
+    <div class="socials">
+      <div class="social-card">
+        <h3>Twitter</h3>
+        <a href="#" target="_blank">@rizkyindunisi</a>
+      </div>
+      <div class="social-card">
+        <h3>Instagram</h3>
+        <a href="#" target="_blank">@rizkyindunisi</a>
+      </div>
+      <div class="social-card">
+        <h3>LinkedIn</h3>
+        <a href="#" target="_blank">Rizky Al Indunisi</a>
+      </div>
+      <div class="social-card">
+        <h3>YouTube</h3>
+        <a href="#" target="_blank">Rizky Al Indunisi</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Rizky Al Indunisi. All rights reserved.
+  </footer>
+
+</body>
+</html>
